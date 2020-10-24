@@ -1,0 +1,13 @@
+.jpg{
+    display: flex;
+    width: 1000px;
+    height: 700px;
+    
+}
+
+@media screen and (max-width: 1080px) {
+    .jpg{
+        max-width: 100%;
+        height: auto;
+    }
+}
